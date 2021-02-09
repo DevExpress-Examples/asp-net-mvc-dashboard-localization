@@ -40,7 +40,7 @@ The **DashboardLocalizationManualMVC** project prevents the Web Dashboard contro
 
 ## Documentation
 
-- [Localization for ASP.NET MVC Dashboard Extension](https://docs.devexpress.com/Dashboard/402536/web-dashboard/aspnet-mvc-dashboard-extension/localization)
+- [Localize ASP.NET MVC Dashboard Extension](https://docs.devexpress.com/Dashboard/402536/web-dashboard/aspnet-mvc-dashboard-extension/localization)
 
 ## More Examples
 

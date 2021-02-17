@@ -1,4 +1,7 @@
 # Dashboard for ASP.NET MVC - Localization
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/336042957/)**
+<!-- run online end -->
 
 The example shows how to localize an ASP.NET MVC Dashboard extension:
 

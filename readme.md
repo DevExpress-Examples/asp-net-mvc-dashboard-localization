@@ -1,4 +1,4 @@
-# Dashboard for ASP.NET MVC - Localization
+# Dashboard for MVC - Localization
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/336042957/)**
 <!-- run online end -->

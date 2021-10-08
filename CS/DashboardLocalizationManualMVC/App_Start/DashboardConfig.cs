@@ -6,7 +6,7 @@ using System.Web.Routing;
 namespace MVCDashboard {
     public static class DashboardConfig {
         public static void RegisterService(RouteCollection routes) {
-            routes.MapDashboardRoute("api/dashboard");
+            routes.MapDashboardRoute("dashboardControl", "DefaultDashboard");
 
             DashboardConfigurator.Default.SetDashboardStorage(new DashboardFileStorage(@"~/App_Data/Dashboards"));
             DashboardConfigurator.Default.SetDataSourceStorage(CreateDataSourceStorage());

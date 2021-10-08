@@ -17,7 +17,8 @@
 </script>
 
 @Html.DevExpress().Dashboard(settings => {
-    settings.Name = "Dashboard";
-    settings.Height = Unit.Percentage(100);
-    settings.ClientSideEvents.Init = "onInit";
+	settings.Name = "Dashboard";
+	settings.ControllerName = "DefaultDashboard";
+	settings.Height = Unit.Percentage(100);
+	settings.ClientSideEvents.Init = "onInit";
 }).GetHtml()

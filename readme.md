@@ -13,9 +13,12 @@ The example shows how to localize an ASP.NET MVC Dashboard extension:
 
 ![](img/web-dashboard-localization-de.png)
 
+>[!note]
+>The Unified Component Installer does not add community-sourced localized assemblies to the Global Assembly Cache (GAC). For more information, refer to the following topic: [Satellite Resource Assemblies](https://docs.devexpress.com/GeneralInformation/404608/localization/localization#satellite-resource-assemblies).
+
 ## Example Structure
 
-The example contains two projects that show how to localize the Web Dashboard in case _automatic_ or _manual_ script integration. Both projects localize the ASP.NET MVC Dashboard extension for the German market with the [satellite resource assemblies](https://docs.devexpress.com/Dashboard/402536/web-dashboard/aspnet-mvc-dashboard-extension/localization#localize-ui). The extension uses Globalize﻿ to format to dates, numbers, and currencies. 
+The example contains two projects that show how to localize the Web Dashboard in case _automatic_ or _manual_ script integration. Both projects localize the ASP.NET MVC Dashboard extension for the German market with the [satellite resource assemblies](https://docs.devexpress.com/Dashboard/402536/web-dashboard/aspnet-mvc-dashboard-extension/localization#localize-ui). The extension uses Globalize﻿ to format to dates, numbers, and currencies. You need to copy the folder that contains satellite assemblies ("es") to the application’s bin folder.
 
 The example also shows how to apply custom formatting for numbers and dates.
 
@@ -63,3 +66,4 @@ The **DashboardLocalizationManualMVC** project prevents the Web Dashboard contro
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+

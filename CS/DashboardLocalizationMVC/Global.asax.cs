@@ -12,6 +12,7 @@ namespace MVCDashboard {
 
     public class MvcApplication : System.Web.HttpApplication {
         protected void Application_Start() {
+            DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(ProductSales));
             DashboardConfig.RegisterService(RouteTable.Routes);
 
             AreaRegistration.RegisterAllAreas();
@@ -21,7 +22,6 @@ namespace MVCDashboard {
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             
             ModelBinders.Binders.DefaultBinder = new DevExpress.Web.Mvc.DevExpressEditorsBinder();
-
             DevExpress.Web.ASPxWebControl.CallbackError += Application_Error;
         }
 

@@ -12,6 +12,7 @@ namespace MVCDashboard {
 
     public class MvcApplication : System.Web.HttpApplication {
         protected void Application_Start() {
+            DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(ProductSales));
             DashboardConfig.RegisterService(RouteTable.Routes);
 
             AreaRegistration.RegisterAllAreas();
